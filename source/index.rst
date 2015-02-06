@@ -38,7 +38,7 @@ In the Beginning...
 Why do hosting at OSU?
 ----------------------
 
-  *Our commitment to the development and application of Open Source is
+  *"Our commitment to the development and application of Open Source is
   consistent with our drive to be the land grant university of the 21st century.
   Through open source activities we are helping underserved populations around
   the world and creating new industries and new products at home."*
@@ -140,11 +140,11 @@ OSL Funding Model
 * Larger projects generally pay for hosting
 
 We need your help!
-------------------
+==================
 
   *Corporate sponsorships Individual donations*
 
-http://osuosl.org/donate
+  http://osuosl.org/donate
 
 Data Center Specs
 -----------------
