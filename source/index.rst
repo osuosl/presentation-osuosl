@@ -26,6 +26,10 @@ What I'll Cover
 In the Beginning...
 -------------------
 
+.. image:: /_static/open-source.jpg
+  :align: left
+  :width: 50%
+
 * University President sees "www.orst.edu" on a sign
 * Maintain - DNS/DHCP management
 * Seed money from OSU Network Services
@@ -91,19 +95,35 @@ Staff
 Students
 --------
 
+.. image:: /_static/student-working.jpg
+  :align: right
+  :width: 50%
+
 * Undergraduate students
 * Full root access
 * Hired Sophomore year
 * Constant turnover (2-3yrs/student)
 
-Staff Pic 1
------------
+Systems Meeting
+---------------
 
-Staff Pic 2
------------
+.. image:: /_static/systems-meeting.jpg
+  :align: center
+  :width: 95%
 
-Staff Pic 3
------------
+NOC
+---
+
+.. image:: /_static/noc1.jpg
+  :align: center
+  :width: 95%
+
+NOC
+---
+
+.. image:: /_static/noc2.jpg
+  :align: center
+  :width: 95%
 
 OSL Funding Model
 -----------------
@@ -129,6 +149,10 @@ http://osuosl.org/donate
 Data Center Specs
 -----------------
 
+.. image:: /_static/datacenter.png
+  :align: right
+  :width: 50%
+
 * 2770 sqft, 76 Colo racks, 11 IDF racks
 * Dual independent power feeds
 
@@ -142,6 +166,10 @@ Data Center Specs
 Networking
 ----------
 
+.. image:: /_static/networking.png
+  :align: right
+  :width: 50%
+
 * NERO
 
   * (Network for Education & Research in Oregon)
@@ -154,11 +182,23 @@ Networking
 Datacenter Pics
 ---------------
 
-Datacenter Pics
----------------
+.. image:: /_static/datacenter1.jpg
+  :align: center
+  :width: 95%
 
 Datacenter Pics
 ---------------
+
+.. image:: /_static/datacenter2.jpg
+  :align: center
+  :width: 95%
+
+Datacenter Pics
+---------------
+
+.. image:: /_static/datacenter3.jpg
+  :align: center
+  :width: 95%
 
 Hosted Machines
 ---------------
@@ -177,11 +217,31 @@ Hosted Machines
 ASF & Drupal Racks
 ------------------
 
+.. image:: /_static/drupal-rack.jpg
+  :align: left
+  :width: 45%
+
+.. image:: /_static/asf-rack.jpg
+  :align: right
+  :width: 45%
+
 PSF, NAS-Admin, Gentoo
 ----------------------
 
+.. image:: /_static/psf-rack.jpg
+  :align: left
+  :width: 45%
+
+.. image:: /_static/gentoo-rack.jpg
+  :align: right
+  :width: 45%
+
 Xiph.org
 --------
+
+.. image:: /_static/xiph-server.png
+  :align: center
+  :width: 95%
 
 Services Provided at the OSL
 ----------------------------
@@ -197,6 +257,10 @@ Services Provided at the OSL
 
 FTP Mirrors
 -----------
+
+.. image:: /_static/ftp-osl.png
+  :align: right
+  :width: 50%
 
 * 3 servers
 
@@ -281,6 +345,10 @@ ORVSD (Oregon Virtual School District)
 Supercell
 ---------
 
+.. image:: /_static/supercell.jpg
+  :align: right
+  :width: 50%
+
 * Continuous integration testing
 * Run-time testing
 * Several platforms supported
@@ -292,6 +360,10 @@ Supercell
 
 POWER7 Development
 ------------------
+
+.. image:: /_static/power7.png
+  :align: right
+  :width: 50%
 
 * 7 loaned POWER7
 * machines (8231-E2B)
@@ -329,8 +401,16 @@ Requesting Hosting
 Hosted Projects (just a few shown)
 ----------------------------------
 
+.. image:: /_static/projects.png
+  :align: center
+  :width: 95%
+
 More projects
 -------------
+
+.. image:: /_static/osl-projects-word-cloud.jpg
+  :align: center
+  :width: 95%
 
 Growth
 ------

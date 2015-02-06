@@ -287,4 +287,9 @@ slide_levels = 3
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'http://docs.python.org/': None}
+#intersphinx_mapping = {'http://docs.python.org/': None}
+
+slide_theme_options = {
+    'custom_css': 'custom.css',
+}
+
