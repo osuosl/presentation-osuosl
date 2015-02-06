@@ -31,7 +31,7 @@ What I'll Cover
 In the Beginning...
 -------------------
 
-.. image:: /_static/open-source.jpg
+.. image:: _static/open-source.jpg
   :align: left
   :width: 50%
 
@@ -100,7 +100,7 @@ Staff
 Students
 --------
 
-.. image:: /_static/student-working.jpg
+.. image:: _static/student-working.jpg
   :align: right
   :width: 50%
 
@@ -112,21 +112,21 @@ Students
 Systems Meeting
 ---------------
 
-.. image:: /_static/systems-meeting.jpg
+.. image:: _static/systems-meeting.jpg
   :align: center
   :width: 95%
 
 NOC
 ---
 
-.. image:: /_static/noc1.jpg
+.. image:: _static/noc1.jpg
   :align: center
   :width: 95%
 
 NOC
 ---
 
-.. image:: /_static/noc2.jpg
+.. image:: _static/noc2.jpg
   :align: center
   :width: 95%
 
@@ -154,7 +154,7 @@ We need your help!
 Data Center Specs
 -----------------
 
-.. image:: /_static/datacenter.png
+.. image:: _static/datacenter.png
   :align: right
   :width: 50%
 
@@ -171,11 +171,11 @@ Data Center Specs
 Networking
 ----------
 
-.. image:: /_static/networking.png
+.. image:: _static/networking.png
   :align: right
   :width: 50%
 
-.. image:: /_static/osuosl-nero-week.png
+.. image:: _static/osuosl-nero-week.png
   :align: right
   :width: 50%
 
@@ -192,21 +192,21 @@ Networking
 Datacenter Pics
 ---------------
 
-.. image:: /_static/datacenter1.jpg
+.. image:: _static/datacenter1.jpg
   :align: center
   :width: 95%
 
 Datacenter Pics
 ---------------
 
-.. image:: /_static/datacenter2.jpg
+.. image:: _static/datacenter2.jpg
   :align: center
   :width: 95%
 
 Datacenter Pics
 ---------------
 
-.. image:: /_static/datacenter3.jpg
+.. image:: _static/datacenter3.jpg
   :align: center
   :width: 95%
 
@@ -227,29 +227,29 @@ Hosted Machines
 ASF & Drupal Racks
 ------------------
 
-.. image:: /_static/drupal-rack.jpg
+.. image:: _static/drupal-rack.jpg
   :align: left
   :width: 45%
 
-.. image:: /_static/asf-rack.jpg
+.. image:: _static/asf-rack.jpg
   :align: right
   :width: 45%
 
 PSF, NAS-Admin, Gentoo
 ----------------------
 
-.. image:: /_static/psf-rack.jpg
+.. image:: _static/psf-rack.jpg
   :align: left
   :width: 45%
 
-.. image:: /_static/gentoo-rack.jpg
+.. image:: _static/gentoo-rack.jpg
   :align: right
   :width: 45%
 
 Xiph.org
 --------
 
-.. image:: /_static/xiph-server.png
+.. image:: _static/xiph-server.png
   :align: center
   :width: 95%
 
@@ -268,7 +268,7 @@ Services Provided at the OSL
 FTP Mirrors
 -----------
 
-.. image:: /_static/ftp-osl.png
+.. image:: _static/ftp-osl.png
   :align: right
   :width: 50%
 
@@ -364,7 +364,7 @@ ORVSD (Oregon Virtual School District)
 Supercell
 ---------
 
-.. image:: /_static/supercell.jpg
+.. image:: _static/supercell.jpg
   :align: right
   :width: 50%
 
@@ -379,7 +379,7 @@ Supercell
 POWER7 (ppc64) Development
 --------------------------
 
-.. image:: /_static/power7.png
+.. image:: _static/power7.png
   :align: right
   :width: 50%
 
@@ -425,14 +425,14 @@ Requesting Hosting
 Hosted Projects (just a few shown)
 ----------------------------------
 
-.. image:: /_static/projects.png
+.. image:: _static/projects.png
   :align: center
   :width: 95%
 
 More projects
 -------------
 
-.. image:: /_static/osl-projects-word-cloud.jpg
+.. image:: _static/osl-projects-word-cloud.jpg
   :align: center
   :width: 95%
 
