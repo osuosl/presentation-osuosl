@@ -11,8 +11,13 @@ About me
 
 * Director OSU Open Source Lab
 * Systems Admin Background
-* Virtualization (Ganeti+KVM), CFengine, Puppet Chef, GlusterFS, etc etc etc...
-* Gentoo Developer
+* Specialities:
+
+  * Virtualization: Ganeti, Openstack
+  * Configuration Management: CFengine, Puppet, Chef
+  * Big storage: GlusterFS
+
+* Gentoo Developer (since 2003 but not as active these days)
 
 What I'll Cover
 ---------------
@@ -30,7 +35,7 @@ In the Beginning...
   :align: left
   :width: 50%
 
-* University President sees "www.orst.edu" on a sign
+* University President sees *"www.orst.edu"* on a sign
 * Maintain - DNS/DHCP management
 * Seed money from OSU Network Services
 * First clients are some of the most well known Open Source projects 
@@ -50,7 +55,7 @@ Timing is everything
 
 * Post dot-com bust = lots of dark fiber
 * Invested $500K into laying 28mi of fiber to I-5
-* "Cheap" bandwidth
+* *"Cheap"* bandwidth
 * Internet2 connectivity
 * Newly renovated data center
 
@@ -170,14 +175,19 @@ Networking
   :align: right
   :width: 50%
 
+.. image:: /_static/osuosl-nero-week.png
+  :align: right
+  :width: 50%
+
 * NERO
 
   * (Network for Education & Research in Oregon)
 
 * 10 Gbps to NERO
 * Cisco 6509 Core
-* 2 Gbps to upstream (10 Gbps coming soon)
-* IPv6 coming someday soon
+* 2 Gbps to upstream
+* IPv6 coming this summer
+* 250TB/mo outbound / 60TB/mo inbound (OSU traffic only)
 
 Datacenter Pics
 ---------------
@@ -204,7 +214,7 @@ Hosted Machines
 ---------------
 
 * ~400 servers
-* 170+ virtual machines 
+* 200+ virtual machines 
 * Projects purchase/own servers 
 
   * 22 racks used by OSL currently
@@ -272,10 +282,24 @@ FTP Mirrors
 * Split via DNS view
 * 230TB per month
 * TDS Telecom
-* Refreshing hardware soon
+* Upgrading to POWER8 machines soon
 
-Virtualization "OSL Private Cloud"
-----------------------------------
+Virtualization/Cloud platforms
+------------------------------
+
+* Ganeti
+
+  * Infrastructure as a Service (IaaS)
+  * *"Pet"* virtual machines
+  * High available VM platform
+
+* Openstack
+
+  * On-demand temporary VM resources for testing
+  * *"Cattle"* virtual machines
+
+Ganeti at OSL
+-------------
 
 * Ganeti - Google FOSS project
 * Ganeti Web Manager - OSL project
@@ -283,14 +307,14 @@ Virtualization "OSL Private Cloud"
 * Easy to expand & manage
 * Primary Production cluster
 
-  * 6 machines / 145 VMs / 25 VMs /server
+  * 6 machines / 180 VMs / 30VMs /server
 
 * Project clusters
 
-  * phpBB, OSGeo, PSF, Gentoo, Debian*
+  * OSGeo, PSF, Debian*
 
-Virtualization Environment
---------------------------
+Ganeti Environment
+------------------
 
 * Limited local storage (10-30G)
 * No Database servers as VMs
@@ -309,13 +333,8 @@ Openstack at the OSL
   * Limited testing currently
   * Chef cookbook testing
 
-* Openstack & Ganeti
-
-  * Ganeti: “pet” VMs, high availability and performance
-  * Openstack: scaling, interface and elastic needs
-
+* POWER8 Openstack Cluster
 * Supercell shifting towards OpenStack
-* Researching Horizon as frontend for Ganeti
 
 Large data storage
 ------------------
@@ -335,7 +354,7 @@ ORVSD (Oregon Virtual School District)
 --------------------------------------
 
 * Primarily Moodle & Drupal hosting for K12 districts
-* Has been running for 7 school years
+* Has been running for 8 school years
 * Give teachers something they can use in the classroom tomorrow
 * Host 750 web sites
 * 180K user accounts
@@ -354,35 +373,40 @@ Supercell
 * Several platforms supported
 * On-demand virtualization
 * Powered by Ganeti+KVM
-* Looking at using Openstack more
+* Migrating towards Openstack
 * Hardware donation initially by Facebook
-* Still in beta
 
-POWER7 Development
-------------------
+POWER7 (ppc64) Development
+--------------------------
 
 .. image:: /_static/power7.png
   :align: right
   :width: 50%
 
-* 7 loaned POWER7
-* machines (8231-E2B)
-* Project access to
-* architecture
+* 7 loaned POWER7 machines (8231-E2B)
+* Project access to architecture
 * OSL Managed
 * Projects using the machines:
 
   * Fedora, Debian, CentOS, PostreSQL, Gentoo, Eclipse, GCC build farm,
     OpenJDK, Linux Foundation, LLVM, Mozilla, V8
 
-* Shared shell machine
-* KVM on OpenPOWER w/ Openstack coming soon
+POWER8 (ppc64/ppc64le)
+-----------------------
+
+* 4 loaned POWER8 machines (8247-22L)
+* Uses newer OPAL firmware
+* Supports Little Endian on ppc
+* KVM on OpenPOWER w/ Openstack
+* Enables FOSS projects easy access to IBM's newer platform in a cloud-like
+  manner
+* Participating in the IBM Challenge
 
 Hosting FAQ
 -----------
 
 * Hosting tailored to each project
-* Target medium-large "high impact" projects
+* Target medium-large *"high impact"* projects
 * Typically outgrown their current hosting
 * Bad experiences with other hosting
 * Let the projects code instead of worrying about their site
@@ -424,28 +448,20 @@ Growth
 * Today
 
   * 22 racks / ~160 projects
-  * ~400 machines / ~170 VMs
+  * ~400 machines / ~200 VMs
 
 * Similar amount of people resources
 
 Current Devops Tools
 --------------------
 
-* Configuration Management
+.. csv-table::
+  :header: Type, Tool
 
-  * CFengine, migrating to Chef
-
-* Monitoring
-
-  * Nagios, munin, cacti, awstats
-
-* Ticket Tracking
-
-  * RT (external), Chili Project (internal)
-
-* Operating System
-
-  * CentOS 6, Gentoo Hardened (deprecated)
+  Configuration Management, "Chef, migrating away from CFengine"
+  Monitoring, "Nagios, munin, cacti, awstats"
+  Ticket Tracking, "RT (external), Chili Project (internal), Github"
+  Operating System, "CentOS 6, Gentoo Hardened (deprecated)"
 
 Infrastructure changes
 ----------------------
@@ -462,23 +478,24 @@ Infrastructure changes
 Events & Outreach
 -----------------
 
-* GOSCON 2005-2010
+* Devops Bootcamp
 
-  * Government Open Source Conference
+  * Staff/Student informal sysadmin/developer training
+  * Started in 2013, in second year
 
 * Beaver Barcamp
 
   * Un-conference for students and community
   * Twice a year (mid Apr & Oct) - now annual in the spring
 
-* OSULUG
+* OSULUG: Install fests, presentations, etc
+* OSL Summit: Quarterly workshop for OSL students and staff
+* GOSCON 2005-2010
 
-  * Install fests, presentations, etc
+  * Government Open Source Conference
 
-* Code Sprints / Hackathons
-
-Recent & Upcoming Changes
--------------------------
+Organization changes
+--------------------
 
 * Organizational move into EECS (Fall 2013)
 
@@ -486,16 +503,14 @@ Recent & Upcoming Changes
   * Education & Research
   * Better fit within OSU (most of our students are in EECS)
 
-* Software Center (Fall 2014)?
+* Center for Applied Systems and Software (CASS)
 
-  * Integrating with Business Solutions Group (BSG)
+  * Collaborating with Business Solutions Group (BSG)
   * Research focused development/hosting
+  * Initially working in the IoT space
 
-* Stabilize long-term funding
-* Expanding Supercell
-
-Other Future Ideas
-------------------
+Goals for the future
+--------------------
 
 * Create a flexible on-demand & automated build and testing environment
 * Performance testing infrastructure
